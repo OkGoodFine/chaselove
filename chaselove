@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_2578406_jog7s16qoc.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青春不常在，赶紧谈恋爱</title>
+    <style>
+        body {
+            background: url(https://bkimg.cdn.bcebos.com/pic/a8014c086e061d954febd6767cf40ad163d9cacb?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto) none;
+        }
+    </style>
+     <link rel="stylesheet" type="text/css" href="registerCss.css">
+</head>
+
+<body>
+    <h1>青春不常在，抓紧谈恋爱</h1>
+    <table width="500">
+        <form action="css.css" method="GET" name="fallInlove">
+            <!-- 第一行性别 -->
+            <tr>
+                <td>性别：</td>
+                <td><input type="radio" name="sex" value="man" id="nan"><label for="nan"><i
+                            class="iconfont icon-nan1"></i> 男</label> <input type="radio" name="sex" value="women"
+                        id="nv"><label for="nv"><i class="iconfont icon-nv1"></i> 女</td></label>
+            </tr>
+            <!-- 第二行出生年月 -->
+            <tr>
+                <td>出生年月日：</td>
+                <td>
+                    <select name="birthday">
+                        <option>请选择年</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                    </select>
+                    <select name="birthday">
+                        <option>请选择月</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                    <select name="birthday">
+                        <option>请选择日</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- 第三行所在地区 -->
+            <tr>
+                <td>籍贯</td>
+                <td><input type="text" name="jiguan" value="所在地区"></td>
+            </tr>
+            <!-- 第四行婚姻状况 -->
+            <tr>
+                <td>婚姻状况</td>
+                <td><input type="radio" value="未婚" name="marry">未婚 <input type="radio" value="已婚" name="marry">已婚 <input
+                        type="radio" value="离异" name="marry">离异</td>
+            </tr>
+            <!-- 第五行学历 -->
+            <tr>
+                <td>学历</td>
+                <td><input type="text" name="education" value="教育情况"></td>
+            </tr>
+            <!-- 第六行喜欢的类型 -->
+            <tr>
+                <td>喜欢的类型</td>
+                <td>
+                    <input type="checkbox" name="love">妩媚的
+                    <input type="checkbox" name="love">可爱的
+                    <input type="checkbox" name="love">小鲜肉
+                    <input type="checkbox" name="love">老腊肉
+                    <input type="checkbox" name="love">lsp
+                </td>
+            </tr>
+            <!-- 第七行自我介绍 -->
+            <tr>
+                <td>自我介绍</td>
+                <td><textarea rows="6" cols="7"></textarea></td>
+            </tr>
+            <!-- 免费注册 -->
+            <tr>
+                <td></td>
+                <td><input type="submit" value="免费注册"></td>
+            </tr>
+            <!-- 注册协议 -->
+            <tr>
+                <td></td>
+                <td><input type="checkbox" checked="checked">我同意注册条款和会员加入标准</td>
+            </tr>
+            <!-- 已是会员， -->
+            <tr>
+                <td></td>
+                <td><a href="#">我是会员，立即登录</a></td>
+            </tr>
+            <!-- 承诺 -->
+            <tr>
+                <td></td>
+                <td>
+                    <h2>我承诺</h2>
+                    <ul>
+                        <li>年满18岁、单身</li>
+                        <li>抱着严肃的态度</li>
+                        <li>真诚寻找另一半</li>
+                    </ul>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
